@@ -1,0 +1,33 @@
+<!-- subscription_fallback_cancelled.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Subscription Downgraded</title>
+</head>
+<body style="font-family: 'Segoe UI', sans-serif; background-color: #f4f4f7; padding: 30px 0;">
+  <table align="center" width="600" style="background-color: #fff; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.05);">
+    <tr>
+      <td style="background-color: #f97316; color: #fff; padding: 24px; text-align: center;">
+        <h1>⚠️ Stripe Cancellation Detected</h1>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 32px;">
+        <p>As-Salaamu Alaikum <strong>{{ORG_NAME}}</strong>,</p>
+        <p>Your Stripe subscription was cancelled on <strong>{{CANCELLED_DATE}}</strong> and your plan has been downgraded to <strong>Free</strong>.</p>
+        <div style="text-align:center; margin-top: 24px;">
+          <a href="{{DASHBOARD_URL}}" style="padding: 12px 24px; background-color: #2563eb; color: #fff; border-radius: 6px; text-decoration: none;">
+            Re-subscribe to Pro
+          </a>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color: #f9fafb; text-align: center; font-size: 12px; color: #9ca3af; padding: 16px;">
+        QuranAI &copy; {{YEAR}} · All Rights Reserved
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!-- subscription_activated.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pro Plan Activated</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body style="font-family: 'Segoe UI', sans-serif; background-color: #f4f4f7; padding: 30px 0;">
+  <table align="center" width="600" style="background-color: #fff; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.05);">
+    <tr>
+      <td style="background-color: #16a34a; color: #fff; padding: 24px; text-align: center;">
+        <h1>🎉 Pro Plan Activated</h1>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 32px;">
+        <p>As-Salaamu Alaikum <strong>{{ORG_NAME}}</strong>,</p>
+        <p>Your organization was upgraded to <strong>Pro Plan</strong> on <strong>{{ACTIVATED_DATE}}</strong>.</p>
+        <ul>
+          <li>✅ {{TOKEN_LIMIT}} tokens/month</li>
+          <li>✅ Priority support enabled</li>
+          <li>✅ Quota requests unlocked</li>
+        </ul>
+        <div style="text-align:center; margin-top: 24px;">
+          <a href="{{DASHBOARD_URL}}" style="padding: 12px 24px; background-color: #2563eb; color: #fff; border-radius: 6px; text-decoration: none;">
+            Manage Billing
+          </a>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td style="background-color: #f9fafb; text-align: center; font-size: 12px; color: #9ca3af; padding: 16px;">
+        QuranAI &copy; {{YEAR}} · Empowering Qur’anic Insight
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
