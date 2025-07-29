@@ -1,4 +1,4 @@
-# 🕋 GEM AI Assistant
+# GEM AI Assistant
 
 A full-stack AI-powered assistant that answers questions grounded using Retrieval-Augmented Generation (RAG). Built with FastAPI, MongoDB, OpenAI Assistants API, and a modern Next.js + Tailwind UI.
 
